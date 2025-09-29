@@ -1,22 +1,12 @@
-{
-  "name": "contactbook-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Dinh Hoang Kham",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.36.0",
-    "eslint": "^9.36.0",
-    "eslint-plugin-vue": "^10.5.0",
-    "globals": "^16.4.0",
-    "typescript-eslint": "^8.45.0"
+  {
+    "name": "contactbook-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js"
+    },
+    "author": "Dinh Hoang Kham",
+    "license": "ISC"
   }
-}
