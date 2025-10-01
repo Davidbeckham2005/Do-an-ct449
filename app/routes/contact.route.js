@@ -1,0 +1,18 @@
+const express = require("express");
+const contacts = require("../controllers/contact.controllers");
+const router = express.Router();
+router.route("/")
+    .get(contacts.findAll)
+    .post(contacts.create)
+    .delete(contacts.delete);
+
+router.route("/farorite")
+    .get(contacts.findAllFavorite);
+
+
+router.route("/:id")
+    .get(contacts.finOne)
+    .put(contacts.update)
+    .delete(contacts.delete);
+
+module.exports = router;
